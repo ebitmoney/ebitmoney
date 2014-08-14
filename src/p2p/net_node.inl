@@ -196,8 +196,11 @@ namespace nodetool
   {
     if (!testnet) {
       //TODO add seed for your network
-      //ADD_HARDCODED_SEED_NODE("your_seed_ip.com:8080");
-    } else {
+      ADD_HARDCODED_SEED_NODE("seeder1.ebitmoney.com:8080");
+  ADD_HARDCODED_SEED_NODE("seeder2.ebitmoney.com:8080");
+      
+
+ } else {
       m_network_id.data[0] += 1;
     }
 
